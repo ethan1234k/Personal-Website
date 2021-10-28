@@ -5,9 +5,9 @@
   flex-direction: row;
   justify-content: space-between;
   height: 140px;
-  background: white;
   opacity: 1;
   outline: none;
+  background: transparent;
 }
 
 .headerContainer > * {
@@ -16,6 +16,7 @@
   font-family: "Montserrat";
   font-weight: bold;
   display: flex;
+  color: whitesmoke;;
 }
 
 .headerRightTabsContainer {
