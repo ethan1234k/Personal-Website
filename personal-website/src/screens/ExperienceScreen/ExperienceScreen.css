@@ -1,0 +1,6 @@
+.blogScreenBackgroundImage {
+  background-image: url("./Embers.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}

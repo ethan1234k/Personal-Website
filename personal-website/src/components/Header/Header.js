@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <div className={click ? 'headerRightTabsContainer active' : 'headerRightTabsContainer'}>
         <p onClick={() => {history.push('/'); window.scrollTo(0, 0)}}>Home</p>
-        <p onClick={() => {history.push('/experiences'); window.scrollTo(0, 0)}}>Experiences</p>
+        <p onClick={() => {history.push('/experience'); window.scrollTo(0, 0)}}>Experiences</p>
         <p onClick={() => {history.push('/education'); window.scrollTo(0, 0)}}>Education</p>
         <p onClick={() => {history.push('/blog'); window.scrollTo(0, 0)}}>Blog</p>
       </div>
