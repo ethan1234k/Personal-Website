@@ -6,6 +6,10 @@ import Navigation from './navigation/navigation';
 //npm install webfontloader
 //npm install react-router-dom
 //npm install react-icons
+//npm install -g @aws-amplify/cli
+
+// ACCIDENT!!!
+// Build Command:  npm run-script start
 
 const App = () => {
 

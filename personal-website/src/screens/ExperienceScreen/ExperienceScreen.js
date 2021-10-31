@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './ExperienceScreen.css'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
-import JourneyImage from './ExperiencesMainGraphic.jpg'
 
 const ExperienceScreen = () => {
     const experiencesArray = useState(["Hello", "Goodbye", "Good Morning"]);
