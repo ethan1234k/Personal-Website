@@ -1,6 +1,13 @@
 .blogScreenBackgroundImage {
   background-image: url("./Embers.jpg");
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
   background-size: cover;
+  margin-bottom: 30px;
+}
+
+.experienceScreenExperienceListings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
