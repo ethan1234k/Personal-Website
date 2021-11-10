@@ -1,5 +1,6 @@
 .resumeListingContainer {
   width: 80vw;
+  height: 30vh;
   /* height: 80vw; */
   box-shadow: 0 2px 4px 0 rgba(66, 65, 65, 0.203),
     0 3px 10px 0 rgba(161, 155, 155, 0.59);
@@ -10,38 +11,38 @@
 }
 
 .resumeListingImage {
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    height: auto;
-    width: 24vw;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 24vw;
 }
 
 .resumeListingTextContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px 40px
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 40px;
 }
 
 .resumeListingTextContainer > * {
-    font-family: "Montserrat";
-    text-align: left;
+  font-family: "Montserrat";
+  text-align: left;
 }
 
 .resumeListingTextContainer > p1 {
-    font-weight: bold;
-    font-size: 26px;
-    margin: 10px 0px;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 10px 0px;
 }
 
 .resumeListingTextContainer > p2 {
-    font-size: 17px;
-    margin-bottom: 10px;
-    color: grey;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: grey;
 }
 
 .resumeListingTextContainer > p3 {
-    font-size: 18px;
-    white-space: pre-wrap;
+  font-size: 18px;
+  white-space: pre-wrap;
 }

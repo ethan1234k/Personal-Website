@@ -1,8 +1,15 @@
-.blogScreenBackgroundImage {
-  background-image: url("./Embers.jpg");
+.experienceScreenBackgroundImage {
+  background-image: url("./Experience.jpg");
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
+  margin-bottom: 60px;
+}
+
+.experienceScreenContainer > p {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 

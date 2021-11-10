@@ -3,11 +3,15 @@ import "./ExperienceScreen.css";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import ResumeListing from "../../components/ResumeListing/ResumeListing";
+import SpogoLogo from './spogosquare.png';
+import BlogSS from './BlogSS.png';
+import BikeCamp from './BikeCamp.jpg';
 
 const ExperienceScreen = () => {
   const experiencesArray = [
     {
       id: 0,
+      image: SpogoLogo,
       title: "Spogo Founder",
       time: "May 2021 - August 2021",
       description:
@@ -15,13 +19,15 @@ const ExperienceScreen = () => {
     },
     {
       id: 1,
+      image: BlogSS,
       title: "Coded Own Blog",
       time: "August 2021 - September 2021",
       description:
-        "• AWS Amplify for backend: GraphQL and Dynamo for blog storage and query, File Storage for embedded images. \n• Inner HTML stored in Dynamo to give each blog different formats, layouts, images. \n• React.js for front end.",
+        "• AWS Amplify: GraphQL and DynamoDB for blog storage and query \n• AWS File Storage for embedded images. \n• Inner HTML stored in Dynamo to give each blog different formats, layouts, images. \n• React.js for front end.",
     },
     {
       id: 2,
+      image: BikeCamp,
       title: "Pedalheads Bike Camp Instructor",
       time: "June 2021 - August 2021",
       description:
@@ -33,16 +39,17 @@ const ExperienceScreen = () => {
 
   return (
     <div>
-      <div className="blogScreenBackgroundImage">
+      <div className="experienceScreenBackgroundImage">
         <Header />
-        <p style={{ color: "white" }}>Experiences</p>
       </div>
       <div className="experienceScreenContainer">
+        <p>Experiences</p>
         <div className="experienceScreenExperienceListings">
           {experiencesArray.map((experience) => (
             <ResumeListing
               key={experience.id}
               id={experience.id}
+              image={experience.image}
               title={experience.title}
               time={experience.time}
               description={experience.description}

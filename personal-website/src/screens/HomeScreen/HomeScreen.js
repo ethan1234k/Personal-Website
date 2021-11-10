@@ -1,10 +1,24 @@
 import React from "react";
 import "./HomeScreen.css";
 import Header from "../../components/Header/Header";
-import SeniorPhoto from './SeniorPhoto.jpg';
+import SeniorPhoto from "./SeniorPhoto.jpg";
 import Footer from "../../components/Footer/Footer";
 
 const HomeScreen = () => {
+  const AwardsRow = (awardsArr) => {
+    return ( 
+    <div className="awardsRowContainer">
+      <div className="awardsRowFirstAward">
+        <p>SAT</p>
+        <p>1550</p>
+      </div>
+      <div className="awardsRowSecondAward">
+        <p>National Merit Scholarship Finalist (2021)</p>
+      </div>
+    </div>
+    )
+  };
+
   return (
     <div className="homeScreenContainer">
       <Header />
@@ -33,6 +47,10 @@ const HomeScreen = () => {
             <img src={SeniorPhoto} />
           </div>
         </div>
+      </div>
+      <div className="homeScreenAwardsScoresSection">
+        <h1>Awards and Scores</h1>
+        <AwardsRow />
       </div>
       <Footer />
     </div>
