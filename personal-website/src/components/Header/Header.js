@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div className="headerContainer">
       <div className="headerLeftLogoContainer">
-        <p>Ethan Kam</p>
+        <p style={{color: 'whitesmoke'}}>Ethan Kam</p>
       </div>
       <div className="headerMenuIcon" onClick={() => handleClick()}>
         {click ? <FaTimes color={"white"}/> : <FaBars color={"white"}/>}

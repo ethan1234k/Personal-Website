@@ -110,4 +110,8 @@
     z-index: 1;
     outline: none;
   }
+
+  .headerContainer > * {
+    color: black;;
+  }
 }
