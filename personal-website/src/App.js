@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ["Montserrat", "Lato", "Lora"],
+        families: ["Montserrat"],
       },
     });
   }, []);

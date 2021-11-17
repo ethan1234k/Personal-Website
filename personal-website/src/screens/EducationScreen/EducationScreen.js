@@ -14,7 +14,7 @@ const EducationScreen = () => {
       title: "University of Washington",
       time: "September 2021 to Present",
       description:
-        "• Computer Science Direct Admit \n• SEAL Research Lab - ECoS Team \n• Currently Taking CSE142, INFO180, ESS102",
+        "• Computer Science Direct Admit \n• Planned Graduation Date: 06/2024 \n• Computer Science, Research, Entreprenuership",
     },
     {
       id: 1,

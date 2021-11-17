@@ -3,6 +3,7 @@ import "./ExperienceScreen.css";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import ResumeListing from "../../components/ResumeListing/ResumeListing";
+import SEALLogo from './SEAL-Logo.png';
 import SpogoLogo from './spogosquare.png';
 import BlogSS from './BlogSS.png';
 import BikeCamp from './BikeCamp.jpg';
@@ -11,6 +12,14 @@ const ExperienceScreen = () => {
   const experiencesArray = [
     {
       id: 0,
+      image: SEALLogo,
+      title: "SEAL Research Lab",
+      time: "September 2021 - Present",
+      description:
+        "• SEAL - ECoS Team \n• Development Team - React, Springboot \n• Team Github Experience (Branches, Merging, Pulling, etc.) \n• Google Analytics Tracking and Deployment",
+    },
+    {
+      id: 1,
       image: SpogoLogo,
       title: "Spogo Founder",
       time: "May 2021 - August 2021",
@@ -18,7 +27,7 @@ const ExperienceScreen = () => {
         "• Developed shareable link-in-bio profile for athletes. \n• Conducted user interviews for validation and feedback, operated on a tight feedback loop. \n• Utilized React.js for frontend, designed UI for the landing page and auth flow for product. \n• Used Firebase Storage and Firestore for backend.",
     },
     {
-      id: 1,
+      id: 2,
       image: BlogSS,
       title: "Coded Own Blog",
       time: "August 2021 - September 2021",
@@ -26,7 +35,7 @@ const ExperienceScreen = () => {
         "• AWS Amplify: GraphQL and DynamoDB for blog storage and query \n• AWS File Storage for embedded images. \n• Inner HTML stored in Dynamo to give each blog different formats, layouts, images. \n• React.js for front end.",
     },
     {
-      id: 2,
+      id: 3,
       image: BikeCamp,
       title: "Pedalheads Bike Camp Instructor",
       time: "June 2021 - August 2021",

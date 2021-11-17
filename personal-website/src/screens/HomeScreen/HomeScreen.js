@@ -26,14 +26,17 @@ const HomeScreen = () => {
         <div className="homeFeedAboutSection">
           <div className="homeFeedAboutLeftContent">
             <h1>Hey, I'm Ethan</h1>
-            <p>I'm 6'4 and extremely buff (just kidding).</p>
+            {/* <p>I'm 6'4 and extremely buff (just kidding).</p> */}
             <p>
-              In seriousness, I'd say I'm a fairly average college freshman. I
-              go to the University of Washington, and am studying Computer
-              Science. And as you might have surmised from the title, I love
-              food (then again who doesn't).
+              I go to the University of Washington, and am studying Computer
+              Science. I am interested in entrepreneurship, everything sports, and 
+              of course coding.
             </p>
-            <p>A couple facts about me:</p>
+            <p>
+              Check out some of my experiences and education on this website, as
+              well as links to my LinkedIn, Github, and Instagram.
+            </p>
+            <p>And, for fun, couple facts about me:</p>
             <p>
               * For the longest time, I was convinced my mom found and adopted
               me from a trash can.
