@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiOutlineGithub,
   AiOutlineInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { useHistory } from "react-router";
 
@@ -15,6 +16,8 @@ const Footer = () => {
       window.open("https://linkedin.com/in/ethan-kam", "_blank");
     } else if (iconName == "Github") {
       window.open("https://github.com/ethan1234k", "_blank");
+    } else if (iconName == "Twitter") {
+      window.open("https://twitter.com/ethank_6", "_blank");
     } else {
       window.open("https://instagram.com/ethank.6", "_blank");
     }
@@ -37,6 +40,11 @@ const Footer = () => {
           size={55}
           className="socialIcon"
           onClick={() => handleIconClick("Instagram")}
+        />
+        <AiOutlineTwitter
+          size={55}
+          className="socialIcon"
+          onClick={() => handleIconClick("Twitter")}
         />
       </div>
       <div className="websiteTabsRow">
