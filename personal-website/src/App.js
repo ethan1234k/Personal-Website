@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import './App.css';
 import WebFont from "webfontloader";
 import Navigation from './navigation/navigation';
+import HomeScreen from './screens/NewDesign/HomeScreen';
 
 //npm install webfontloader
 //npm install react-router-dom
@@ -16,14 +17,15 @@ const App = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ["Montserrat"],
+        families: ["Montserrat", "Space Mono"],
       },
     });
   }, []);
 
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
+      <HomeScreen />
     </div>
   );
 }

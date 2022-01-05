@@ -1,0 +1,282 @@
+@media screen and (max-width: 800px) {
+    .newDesignHomeContainer {
+      background-color: #000000;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23a50000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%236f0a61' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23b40001' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23640955' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23c20003' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%235a094a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d10104' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234f083e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23e10105' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23450734' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23f00107' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%233b0629' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+      background-attachment: fixed;
+      background-size: cover;
+  
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 15% 75%;
+      column-gap: 4%;
+    }
+  
+    .socialIconsColumn {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .socialIcon {
+      font-size: 50px;
+      margin: 5% 0%;
+    }
+  
+    .socialIcon:hover {
+      font-size: 65px;
+    }
+  
+    .motivationalMessageContainer {
+      display: none;
+    }
+  
+    .aboutMeContainer {
+      border: solid white;
+      background: black;
+      font-family: "Space Mono";
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 8% 4%;
+      margin-top: 15vh;
+      height: 70vh;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .aboutMeContainer::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .aboutMeContainer > h1 {
+      text-decoration: underline white;
+      text-decoration-thickness: 16.5px;
+      margin-bottom: 15px;
+    }
+  
+    .aboutMeContainer > hr {
+      width: 40%;
+      height: 1px;
+    }
+  
+    .aboutMeContainer > p {
+      margin: 15px 0px;
+      font-size: 18px;
+    }
+  
+    .aboutMeContainer > p2 {
+      font-size: 22px;
+      text-decoration: underline;
+      /* text-decoration-thickness: 16.5px; */
+      font-weight: bold;
+      margin: 20px 0px;
+    }
+  
+    .aboutMeContainer > p3 {
+      font-size: 16px;
+      margin: 12px 0px;
+    }
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  .newDesignHomeContainer {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23a50000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%236f0a61' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23b40001' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23640955' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23c20003' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%235a094a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d10104' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234f083e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23e10105' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23450734' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23f00107' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%233b0629' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 8% 40% 40%;
+    column-gap: 4%;
+  }
+
+  .socialIconsColumn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .socialIcon {
+    font-size: 50px;
+    margin: 5% 0%;
+  }
+
+  .socialIcon:hover {
+    font-size: 65px;
+  }
+
+  .motivationalMessageContainer {
+    border: solid white;
+    font-family: "Space Mono";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 3%;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: underline white;
+    text-decoration-thickness: 16.5px;
+    height: 100vh;
+  }
+
+  .aboutMeContainer {
+    border: solid white;
+    background: black;
+    font-family: "Space Mono";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8% 4%;
+    margin-top: 15vh;
+    height: 70vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .aboutMeContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .aboutMeContainer > h1 {
+    text-decoration: underline white;
+    text-decoration-thickness: 16.5px;
+    margin-bottom: 15px;
+  }
+
+  .aboutMeContainer > hr {
+    width: 40%;
+    height: 1px;
+  }
+
+  .aboutMeContainer > p {
+    margin: 15px 0px;
+    font-size: 18px;
+  }
+
+  .aboutMeContainer > p2 {
+    font-size: 22px;
+    text-decoration: underline;
+    /* text-decoration-thickness: 16.5px; */
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+
+  .aboutMeContainer > p3 {
+    font-size: 16px;
+    margin: 12px 0px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .newDesignHomeContainer {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23a50000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%236f0a61' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23b40001' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23640955' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23c20003' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%235a094a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d10104' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234f083e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23e10105' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23450734' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23f00107' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%233b0629' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 40% 32%;
+    column-gap: 6%;
+  }
+
+  .socialIconsColumn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .socialIcon {
+    font-size: 55px;
+    margin: 5% 0%;
+  }
+
+  .socialIcon:hover {
+    font-size: 70px;
+  }
+
+  .motivationalMessageContainer {
+    border: solid white;
+    font-family: "Space Mono";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 3%;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: underline white;
+    text-decoration-thickness: 16.5px;
+    height: 100vh;
+  }
+
+  .aboutMeContainer {
+    border: solid white;
+    background: black;
+    font-family: "Space Mono";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8% 4%;
+    margin-top: 15vh;
+    height: 70vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .aboutMeContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .aboutMeContainer > h1 {
+    text-decoration: underline white;
+    text-decoration-thickness: 16.5px;
+    margin-bottom: 15px;
+  }
+
+  .aboutMeContainer > hr {
+    width: 40%;
+    height: 1px;
+  }
+
+  .aboutMeContainer > p {
+    margin: 15px 0px;
+    font-size: 18px;
+  }
+
+  .aboutMeContainer > p2 {
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-thickness: 16.5px;
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+
+  .aboutMeContainer > p3 {
+    font-size: 16px;
+    margin: 12px 0px;
+  }
+}
