@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import WebFont from "webfontloader";
-import Navigation from './navigation/navigation';
 import HomeScreen from './screens/NewDesign/HomeScreen';
 
 //npm install webfontloader

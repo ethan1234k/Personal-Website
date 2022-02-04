@@ -79,6 +79,13 @@ const HomeScreen = () => {
         <p>I'm currently learning about blockchain and web3, and interested in everything startups.</p>
 
         <hr style={{marginTop: '50px'}}/>
+        <p>What I'm Doing:</p>
+        <hr style={{marginBottom: '50px'}}/>
+
+        <p2>Software Engineer Intern - Smartsheet</p2>
+        <p3>Joining the In-App User Education team at Smartsheet this summer.</p3>
+
+        <hr style={{marginTop: '50px'}}/>
         <p>What I've Done:</p>
         <hr style={{marginBottom: '50px'}}/>
 
