@@ -6,6 +6,9 @@ import {
   AiOutlineMail,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import {
+  IoIosPaper
+} from "react-icons/io";
 
 const HomeScreen = () => {
   const [displayMessage, setDisplayMessage] = useState("Surround Yourself With People Who Make You Better");
@@ -49,11 +52,6 @@ const HomeScreen = () => {
   return (
     <div className="newDesignHomeContainer">
       <div className="socialIconsColumn">
-        <AiOutlineTwitter
-          className="socialIcon"
-          onClick={() => handleIconClick("Twitter")}
-          color={"white"}
-        />
         <AiFillLinkedin
           className="socialIcon"
           onClick={() => handleIconClick("LinkedIn")}
@@ -62,6 +60,16 @@ const HomeScreen = () => {
         <AiOutlineGithub
           className="socialIcon"
           onClick={() => handleIconClick("Github")}
+          color={"white"}
+        />
+        <IoIosPaper
+          className="socialIcon"
+          // onClick={() => handleIconClick("Email")}
+          color={"white"}
+        />
+        <AiOutlineTwitter
+          className="socialIcon"
+          onClick={() => handleIconClick("Twitter")}
           color={"white"}
         />
         <AiOutlineMail
@@ -75,7 +83,7 @@ const HomeScreen = () => {
       </div>
       <div className="aboutMeContainer">
         <h1>Hi, I'm Ethan Kam</h1>
-        <p>I'm an entrepreneur, influencer, and CS student at the University of Washington</p>
+        <p>I'm a sophomore studying CS at the University of Washington</p>
         <p>I'm currently learning about blockchain and web3, and interested in everything startups.</p>
 
         <hr style={{marginTop: '50px'}}/>

@@ -21,6 +21,17 @@ const App = () => {
     });
   }, []);
 
+  useEffect(() => {
+    fetch('http://localhost:8080/')
+    .then(async response => {
+      const data = await response.json();
+      console.log(data)
+  })
+  .catch(error => {
+      console.log('There was an error!', error);
+  });
+  }, []);
+
   return (
     <div className="App">
       {/* <Navigation /> */}

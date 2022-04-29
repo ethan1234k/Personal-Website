@@ -224,7 +224,7 @@
     font-size: 22px;
     font-weight: 300;
     text-decoration: underline white;
-    text-decoration-thickness: 16.5px;
+    /* text-decoration-thickness: 16.5px; */
     height: 100vh;
   }
 
@@ -270,7 +270,6 @@
   .aboutMeContainer > p2 {
     font-size: 22px;
     text-decoration: underline;
-    text-decoration-thickness: 16.5px;
     font-weight: bold;
     margin: 20px 0px;
   }
