@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./HomeScreen.css";
+import Resume from './CS Resume.pdf'
 import {
   AiFillLinkedin,
   AiOutlineGithub,
@@ -62,11 +63,12 @@ const HomeScreen = () => {
           onClick={() => handleIconClick("Github")}
           color={"white"}
         />
-        <IoIosPaper
-          className="socialIcon"
-          // onClick={() => handleIconClick("Email")}
-          color={"white"}
-        />
+        <a href={Resume} target="_blank" className="resumeContainer">
+          <IoIosPaper
+            className="socialIcon"
+            color={"white"}
+          />
+        </a>
         <AiOutlineTwitter
           className="socialIcon"
           onClick={() => handleIconClick("Twitter")}
