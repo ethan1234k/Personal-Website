@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./HomeScreen.css";
-import Resume from './CS Resume.pdf'
+import Resume from './KamEthan2024.pdf'
 import {
   AiFillLinkedin,
   AiOutlineGithub,
@@ -85,8 +85,9 @@ const HomeScreen = () => {
       </div>
       <div className="aboutMeContainer">
         <h1>Hi, I'm Ethan Kam</h1>
-        <p>I'm a sophomore studying CS at the University of Washington</p>
-        <p>I'm currently learning about blockchain and web3, and interested in everything startups.</p>
+        <p>I'm a rising junior studying Computer Science at the University of Washington.</p>
+        <p>I'm have strong experience in backend and full-stack development, and am interested in everything startups.</p>
+        <p>Feel free to check out my resume and social links using the icons on the left 😊</p>
 
         <hr style={{marginTop: '50px'}}/>
         <p>What I'm Doing:</p>
@@ -101,6 +102,7 @@ const HomeScreen = () => {
 
 
         <p2>Co-Founded Spogo</p2>
+        <p3>Developed a shareable link-in-bio to help athletes monetize off their name, image, and likeness.</p3>
         <p3>Generated Pre-Seed investor interest.</p3>
         <p3>Top 10% of all applicants in Y-Combinator's W22 batch.</p3>
         <p3>Mentored by two successful entrepenuers (one recently sold his company to Microsoft).</p3>
