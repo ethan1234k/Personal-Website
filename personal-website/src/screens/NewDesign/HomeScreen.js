@@ -94,12 +94,16 @@ const HomeScreen = () => {
         <hr style={{marginBottom: '50px'}}/>
 
         <p2>Software Engineer Intern - Smartsheet</p2>
-        <p3>Joining the In-App User Education team at Smartsheet this summer.</p3>
+        <p3>Worked on the In-App User Education, building a new flow for all new Smartsheet users and running a corresponding A/B test to track it's success.</p3>
 
         <hr style={{marginTop: '50px'}}/>
         <p>What I've Done:</p>
         <hr style={{marginBottom: '50px'}}/>
 
+        <p2>Building Kadu AI</p2>
+        <p3>Developing a Gmail extension that turns simple instructions into professional emails and cover letters.</p3>
+        <p3>Conducted 50+ 30 minute interviews to better understand the scope of job seeker’s problems when reaching out to recruiters and applying to job postings.</p3>
+        <p3>Received feedback from users on Figma mockups and product prototype/MVP, iterating off their feedback.</p3>
 
         <p2>Co-Founded Spogo</p2>
         <p3>Developed a shareable link-in-bio to help athletes monetize off their name, image, and likeness.</p3>
