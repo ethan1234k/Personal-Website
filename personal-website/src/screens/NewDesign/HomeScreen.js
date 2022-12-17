@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./HomeScreen.css";
-import Resume from './KamEthan2024.pdf'
+import Resume from './Ethan-Kam-Resume.pdf'
 import {
   AiFillLinkedin,
   AiOutlineGithub,
@@ -69,11 +69,11 @@ const HomeScreen = () => {
             color={"white"}
           />
         </a>
-        <AiOutlineTwitter
+        {/* <AiOutlineTwitter
           className="socialIcon"
           onClick={() => handleIconClick("Twitter")}
           color={"white"}
-        />
+        /> */}
         <AiOutlineMail
           className="socialIcon"
           onClick={() => handleIconClick("Email")}
@@ -86,24 +86,23 @@ const HomeScreen = () => {
       <div className="aboutMeContainer">
         <h1>Hi, I'm Ethan Kam</h1>
         <p>I'm a rising junior studying Computer Science at the University of Washington.</p>
-        <p>I'm have strong experience in backend and full-stack development, and am interested in everything startups.</p>
         <p>Feel free to check out my resume and social links using the icons on the left 😊</p>
 
         <hr style={{marginTop: '50px'}}/>
         <p>What I'm Doing:</p>
         <hr style={{marginBottom: '50px'}}/>
 
-        <p2>Software Engineer Intern - Smartsheet</p2>
-        <p3>Worked on the In-App User Education, building a new flow for all new Smartsheet users and running a corresponding A/B test to track it's success.</p3>
+        <p2>Software Engineer Intern - Palantir</p2>
+        <p3>Joining Palantir Technologies this summer as a Software Engineer Intern on the Gotham platform.</p3>
 
         <hr style={{marginTop: '50px'}}/>
         <p>What I've Done:</p>
         <hr style={{marginBottom: '50px'}}/>
 
-        <p2>Building Kadu AI</p2>
-        <p3>Developing a Gmail extension that turns simple instructions into professional emails and cover letters.</p3>
-        <p3>Conducted 50+ 30 minute interviews to better understand the scope of job seeker’s problems when reaching out to recruiters and applying to job postings.</p3>
-        <p3>Received feedback from users on Figma mockups and product prototype/MVP, iterating off their feedback.</p3>
+        <p2>Software Engineer Intern - Smartsheet</p2>
+        <p3>Worked on the In-App User Education, building experiences and resources for new Smartsheet users.</p3>
+        <p3>Owned a feature to let users view and accept example tasks/subtasks.</p3>
+        <p3>Ran a corresponding A/B experiment in Amplitude to track its impact on users.</p3>
 
         <p2>Co-Founded Spogo</p2>
         <p3>Developed a shareable link-in-bio to help athletes monetize off their name, image, and likeness.</p3>
@@ -115,11 +114,6 @@ const HomeScreen = () => {
         <p3>Used Solidity smart contracts to let users list and sell NFT's.</p3>
         <p3>Enabled user minting of ERC721 compliant NFT's using smart contracts and IPFS storage.</p3>
         <p3>Built on Ethereum, using Metamask for authentication.</p3>
-
-        <p2>Coded my own Blog</p2>
-        <p3>Used AWS Amplify and File Storage to store blog content.</p3>
-        <p3>Developed queries in GraphQL to only fetch necessary info to display to the user.</p3>
-        <p3>Utilized InnerHTML to create dynamic blogs with varying formats and images.</p3>
       </div>
     </div>
   );

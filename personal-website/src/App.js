@@ -1,10 +1,7 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import WebFont from "webfontloader";
 import HomeScreen from './screens/NewDesign/HomeScreen';
-
-// ACCIDENT!!!
-// Build Command:  npm run-script start
 
 const App = () => {
 
